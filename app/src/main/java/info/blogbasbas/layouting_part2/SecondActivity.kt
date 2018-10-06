@@ -22,8 +22,12 @@ class SecondActivity : AppCompatActivity() {
             } else if (nilaiDua.isEmpty()){
                 editText_nilai_2.setError("nilai bulum di isi")
             } else{
+
+                val nilaiA = nilaiSatu.toDouble()
+                val nilaiB = nilaiDua.toDouble()
                 val hasil = nilaiDua + nilaiSatu
-                Toast.makeText(this," Hasil penjumlahan $hasil", Toast.LENGTH_LONG).show()
+                val hasil2 = nilaiA + nilaiB
+                Toast.makeText(this," Hasil penjumlahan $hasil dan $hasil2 ", Toast.LENGTH_LONG).show()
             }
 
         }
