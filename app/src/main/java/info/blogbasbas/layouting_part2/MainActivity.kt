@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         // fungsi onKlik
         btn_to_second.setOnClickListener {
 
-            //kasih toast ketika diklik
+            //kasih toast ketika diklik//
             Toast.makeText(this,"fungsi button klik", Toast.LENGTH_LONG).show()
 
             // fungsi intent untuk pindah activity
